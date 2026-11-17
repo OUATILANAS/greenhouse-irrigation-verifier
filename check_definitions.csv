@@ -1,0 +1,9 @@
+check_id,name,rule
+E1,"Qualified, sufficiently recent context","At least one contextual record at/before command time with valid quality/calibration, declared unit/sensor, and age <=60 s."
+E2,Record identity and source time,Every record has the declared event/command/zone identifiers and a finite source timestamp.
+E3,Unambiguous command identity,"One command payload after deduplication; identical retransmissions are idempotent, conflicting reuse is rejected."
+E4,Device acknowledgement,A matched accepted acknowledgement occurs at/after command time and within 3 s.
+E5,Qualified flow trace,"At least two uniquely timed flow samples, declared L/min unit/sensor, valid calibration/quality, nonnegative values, and onset within 5 s."
+E6,Recorded pressure bounds,"Supplied pressure samples have declared unit/sensor, valid quality/calibration and 0.8-2.0 bar within the delivery window."
+E7,Recorded volume and window,Trapezoidal integration of qualified flow gives 1.0 +/-0.1 L within the 40 s window; these are synthetic profile values.
+E8,Linked twin-state record,A matched confirmation follows the final response record and identifies the model and profile versions.

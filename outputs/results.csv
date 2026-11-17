@@ -1,0 +1,17 @@
+case_id,scenario,expected_verdict,actual_verdict,acknowledgement_only_verdict,failed_checks,integrated_volume_l,expectation_matched
+N01,Nominal evidence chain,verified,verified,verified,,1.0,True
+N02,"Out-of-order arrival, intact source times",verified,verified,verified,,1.0,True
+N03,Identical command retransmission,verified,verified,verified,,1.0,True
+F01,Stale contextual measurement,not_verified,not_verified,verified,E1,1.0,True
+F02,Missing device acknowledgement,not_verified,not_verified,not_verified,E4,1.0,True
+F03,Accepted command without recorded flow,not_verified,not_verified,verified,E5;E7,0.0,True
+F04,Conflicting reuse of a command identifier,not_verified,not_verified,verified,E3,1.0,True
+F05,Flow records linked to a different event,not_verified,not_verified,verified,E2,1.0,True
+F06,Recorded delivery below volume tolerance,not_verified,not_verified,verified,E7,0.10666666666666667,True
+F07,Acknowledgement outside declared delay,not_verified,not_verified,verified,E4,1.0,True
+F08,Invalid flow-sensor calibration state,not_verified,not_verified,verified,E5;E7,,True
+F09,Twin confirmation before final response record,not_verified,not_verified,verified,E8,1.0,True
+F10,Twin update without model version,not_verified,not_verified,verified,E8,1.0,True
+F11,Flow unit outside the declared profile,not_verified,not_verified,verified,E5;E7,,True
+F12,Flow sample without source timestamp,not_verified,not_verified,verified,E2;E5;E7;E8,,True
+F13,Recorded pressure outside profile bounds,not_verified,not_verified,verified,E6,1.0,True

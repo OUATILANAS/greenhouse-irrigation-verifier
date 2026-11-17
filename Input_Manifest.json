@@ -1,0 +1,78 @@
+[
+  {
+    "path": "profile.json",
+    "sha256": "183a056a15e062fba5d262e16f39bc1e15316e767d45b5ef5f0bee7f265d4cb2"
+  },
+  {
+    "path": "expected.csv",
+    "sha256": "4a217707db1a031872bbad3e10161f9b23029fe4edb129f6efb1979c1268688d"
+  },
+  {
+    "path": "check_definitions.csv",
+    "sha256": "dc81c4c26bfeae2947056b93990fab78e5c62d005039f057f2d3cb3e653164cd"
+  },
+  {
+    "path": "cases/F01.json",
+    "sha256": "62e2dfa2c73621038bf802bbf861f413043b0b0f16c8fdc4e42d797841c09473"
+  },
+  {
+    "path": "cases/F02.json",
+    "sha256": "48c3cebd1d034253f7853a97e45acbf097c364dceedaa57fb442cb6d559c5c24"
+  },
+  {
+    "path": "cases/F03.json",
+    "sha256": "e39178f6f45ce05ac912ddfe893d131b7dfeea9236fdb8596be8ce7891242171"
+  },
+  {
+    "path": "cases/F04.json",
+    "sha256": "004578fab916415d8ef8f27d03f2094eb551d4e49efe0ff3d1d092842a72f913"
+  },
+  {
+    "path": "cases/F05.json",
+    "sha256": "d1464d447c827bc23ed06b3bc7a6971c8c934d9a94784150184c90800105f211"
+  },
+  {
+    "path": "cases/F06.json",
+    "sha256": "9c80d6194b37083520c37ca3b3729142d3071a4afe56eda3c693e719451da63c"
+  },
+  {
+    "path": "cases/F07.json",
+    "sha256": "660fc3187cceb6fc981b5081a3d72c1e5b229a7fd7ff22be71d69d1eb0200124"
+  },
+  {
+    "path": "cases/F08.json",
+    "sha256": "c010aa0c9e715452fdfee1d4f716b5f3b1f66a2249afedf12883b6f9172b1994"
+  },
+  {
+    "path": "cases/F09.json",
+    "sha256": "283a01633551e18d60a83c0f4374b8c3cb4704cfb1532d78151dd4ffb83b7656"
+  },
+  {
+    "path": "cases/F10.json",
+    "sha256": "5b0b9d59f9e2ccb0b69fa1ea1af59264ff265d3f0ad991e822380f5ed4ba7d11"
+  },
+  {
+    "path": "cases/F11.json",
+    "sha256": "d878a21f801a8b2b333bc4a217bb5f35d99c471f37b2f0e254594568fb02e20e"
+  },
+  {
+    "path": "cases/F12.json",
+    "sha256": "b2ce9e7bbb7de3c69a614e48c13d26ecc6215e50d3be90a7ced909b4a4b99939"
+  },
+  {
+    "path": "cases/F13.json",
+    "sha256": "586b82cf37bbd901b65a59c94c80264548e064030f4394640a204c666775c0c5"
+  },
+  {
+    "path": "cases/N01.json",
+    "sha256": "f133d6e964a783ef7121d7f4902a916453f6bff283d58ba07b52df8fa491ad13"
+  },
+  {
+    "path": "cases/N02.json",
+    "sha256": "88d282bdd4fba6a5b895ae8480a3b595e80fdf4e7b8a20cffd007b5996c2b940"
+  },
+  {
+    "path": "cases/N03.json",
+    "sha256": "7f571a3c1a56421580a70b85092bd697ba5862cd5da185ece6a3d93af310b558"
+  }
+]

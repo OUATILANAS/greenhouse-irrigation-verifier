@@ -1,0 +1,29 @@
+{
+  "profile_id": "synthetic-irrigation-v1",
+  "time_basis": "seconds relative to a shared synthetic episode origin; not wall-clock measurements",
+  "event_id": "irrigation-001",
+  "command_id": "command-001",
+  "zone": "zone-A",
+  "max_context_age_s": 60.0,
+  "max_ack_delay_s": 3.0,
+  "max_flow_start_delay_s": 5.0,
+  "delivery_deadline_s": 40.0,
+  "target_volume_l": 1.0,
+  "volume_tolerance_l": 0.1,
+  "min_pressure_bar": 0.8,
+  "max_pressure_bar": 2.0,
+  "units": {
+    "context": "m3/m3",
+    "flow": "L/min",
+    "pressure": "bar"
+  },
+  "sensors": {
+    "context": "moisture-A",
+    "flow": "flow-A",
+    "pressure": "pressure-A"
+  },
+  "required_twin_versions": [
+    "model_version",
+    "profile_id"
+  ]
+}

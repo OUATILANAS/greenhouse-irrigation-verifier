@@ -1,0 +1,306 @@
+[
+  {
+    "case_id": "N01",
+    "verdict": "verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "N02",
+    "verdict": "verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "N03",
+    "verdict": "verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F01",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": false,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [
+      "E1"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F02",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": false,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [
+      "E4"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "not_verified"
+  },
+  {
+    "case_id": "F03",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": false,
+      "E6": true,
+      "E7": false,
+      "E8": true
+    },
+    "failed_checks": [
+      "E5",
+      "E7"
+    ],
+    "integrated_volume_l": 0.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F04",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": false,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [
+      "E3"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F05",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": false,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [
+      "E2"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F06",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": false,
+      "E8": true
+    },
+    "failed_checks": [
+      "E7"
+    ],
+    "integrated_volume_l": 0.10666666666666667,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F07",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": false,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [
+      "E4"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F08",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": false,
+      "E6": true,
+      "E7": false,
+      "E8": true
+    },
+    "failed_checks": [
+      "E5",
+      "E7"
+    ],
+    "integrated_volume_l": null,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F09",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": false
+    },
+    "failed_checks": [
+      "E8"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F10",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": true,
+      "E7": true,
+      "E8": false
+    },
+    "failed_checks": [
+      "E8"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F11",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": false,
+      "E6": true,
+      "E7": false,
+      "E8": true
+    },
+    "failed_checks": [
+      "E5",
+      "E7"
+    ],
+    "integrated_volume_l": null,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F12",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": false,
+      "E3": true,
+      "E4": true,
+      "E5": false,
+      "E6": true,
+      "E7": false,
+      "E8": false
+    },
+    "failed_checks": [
+      "E2",
+      "E5",
+      "E7",
+      "E8"
+    ],
+    "integrated_volume_l": null,
+    "acknowledgement_only_verdict": "verified"
+  },
+  {
+    "case_id": "F13",
+    "verdict": "not_verified",
+    "checks": {
+      "E1": true,
+      "E2": true,
+      "E3": true,
+      "E4": true,
+      "E5": true,
+      "E6": false,
+      "E7": true,
+      "E8": true
+    },
+    "failed_checks": [
+      "E6"
+    ],
+    "integrated_volume_l": 1.0,
+    "acknowledgement_only_verdict": "verified"
+  }
+]
